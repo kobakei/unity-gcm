@@ -1,11 +1,13 @@
 Android-GCM-Pluign-For-Unity
 ============================
 
-Documentation for Android GCM Plugin for Unity
+Android GCM Plugin for Unity
 
 ## Download
 
-Buy at [Unity Asset Store](http://unity3d.com/asset-store/)
+```sh
+git clone git://github.com/kskkbys/Android-GCM-Plugin-For-Unity
+```
 
 ## Developer Guide
 
