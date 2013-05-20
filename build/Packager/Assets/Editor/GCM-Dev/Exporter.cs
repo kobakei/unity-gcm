@@ -26,7 +26,7 @@ public class Exporter : MonoBehaviour {
 			"Assets/GCM-Sample",
 			"Assets/readme.txt"
 		};
-		string dstFileName = "../Android-GCM-Plugin.unitypackage";
+		string dstFileName = "../unity-gcm.unitypackage";
 		AssetDatabase.ExportPackage (pathNames, dstFileName, ExportPackageOptions.Recurse);
 		
 		EditorUtility.DisplayDialog ("Android-GCM-Plugin", "Exported!", "OK");
