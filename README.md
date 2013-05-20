@@ -1,4 +1,4 @@
-Android-GCM-Pluign-For-Unity
+unity-gcm
 ============================
 
 Android GCM Plugin for Unity
@@ -6,13 +6,13 @@ Android GCM Plugin for Unity
 ## Download
 
 ```sh
-git clone git://github.com/kskkbys/Android-GCM-Plugin-For-Unity
+git clone git://github.com/kskkbys/unity-gcm
 ```
 
 ## Developer Guide
 
-* https://github.com/kskkbys/Android-GCM-Plugin-For-Unity/wiki/Developer-Guide
+* https://github.com/kskkbys/unity-gcm/wiki/Developer-Guide
 
 ## Known Issues
 
-* https://github.com/kskkbys/Android-GCM-Plugin-For-Unity/issues
+* https://github.com/kskkbys/unity-gcm/issues
