@@ -1,0 +1,192 @@
+2013-05-06 18:05:23.288 Unity[6409:2203] NSDocumentController Info.plist warning: The values of CFBundleTypeRole entries must be 'Editor', 'Viewer', 'None', or 'Shell'.
+o/2.0'
+Mono config path = '/Applications/Unity/Unity.app/Contents/Frameworks/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y
+
+LICENSE SYSTEM [201356 18:5:23] Next license update check is after 2013-05-07T06:34:52
+
+
+ BATCHMODE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-quit
+-batchmode
+-projectPath
+/Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager
+-logFile
+log.txt
+-executeMethod
+Exporter.Export
+Successfully changed project path to: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager
+/Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager
+Loading GUID <-> Path mappings ... 0.000446 seconds.
+Loading Asset Database ...  0.001256 seconds
+AssetDatabase consistency checks ...  0.006741 seconds
+Initialize engine version: 4.1.2f1 (911c7369eeac)
+GfxDevice: creating device client; threaded=0
+OpenGL:
+    Version:  OpenGL 2.1 [2.1 APPLE-7.32.12]
+    Renderer: Intel HD Graphics 3000 OpenGL Engine
+    Vendor:   Intel Inc.
+    VRAM:     416 MB
+    Extensions: GL_ARB_color_buffer_float GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_seamless_cube_map GL_ARB_shader_objects GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_sync GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_bgra GL_ARB_vertex_blend GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_APPLE_aux_depth_stencil GL_APPLE_client_storage GL_APPLE_element_array GL_APPLE_fence GL_APPLE_float_pixels GL_APPLE_flush_buffer_range GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_APPLE_pixel_buffer GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_specular_vector GL_APPLE_texture_range GL_APPLE_transform_hint GL_APPLE_vertex_array_object GL_APPLE_vertex_array_range GL_APPLE_vertex_point_size GL_APPLE_vertex_program_evaluators GL_APPLE_ycbcr_422 GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_IBM_rasterpos_clip GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod 
+Registering custom dll's ... 0.000400 seconds.
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.140 seconds
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll (this message is harmless)
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.131 seconds
+System memory in use before: 12.6 MB.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 51.
+Total: 6.169927 ms (FindLiveObjects: 0.027313 ms CreateObjectMapping: 0.005499 ms MarkObjects: 0.576960 ms  DeleteObjects: 0.034460 ms)
+
+Validating Project structure ... 0.000443 seconds.
+Refresh, detecting if any assets need to be imported or removed ... 0.016410 seconds
+Updating Assets/GCM-Sample/SubScene.unity - GUID: 6c8cf2d0bd08c411fa2fc82439a57341...
+ done. [Time: 26.452579 ms] 
+Updating Assets/GCM-Sample/MainScene.unity - GUID: ce4b97385ed924a279e5ad1a082bfcb0...
+ done. [Time: 3.378041 ms] 
+Updating Assets/Plugins/Android/gcm.jar - GUID: 8d011e3327a7c4824b6fee658ba7bc7d...
+ done. [Time: 12.990757 ms] 
+Updating Assets/Plugins/Android/unitygcmplugin.jar - GUID: da008d292a62641afba7ce4725f094be...
+ done. [Time: 3.219871 ms] 
+Updating Assets/GCM-Sample/SubScene.cs - GUID: 04a2971433fa34fc79ae81ac23ff6e33...
+ done. [Time: 126.535324 ms] 
+Updating Assets/Plugins/GCM/MiniJSON.cs - GUID: 3dd2228ca908942b78c6b5f5d4b30ec9...
+ done. [Time: 41.193893 ms] 
+Updating Assets/GCM-Sample/MainScene.cs - GUID: 4ad2af4125dda4292a875bbda3a33d3a...
+ done. [Time: 10.026880 ms] 
+Updating Assets/Plugins/GCM/GCM.cs - GUID: d6cf7973f0f484a8b9bdcdfb57067213...
+ done. [Time: 11.354465 ms] 
+Updating Assets/Plugins/GCM/GCMReceiver.cs - GUID: e87ebcf0365f14b46a0c8daf0aa7e887...
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll, for buildtarget 4
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Begin MonoManager ReloadAssembly
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll (this message is harmless)
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp.dll into Unity Child Domain
+Non platform assembly: /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll (this message is harmless)
+Loading /Users/kobayashikeisuke/Desktop/unity-gcm/build/Packager/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll (this message is harmless)
+Loading /Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll into Unity Child Domain
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Core.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/Mono.Cecil.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/UnityScript.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Managed/ICSharpCode.NRefactory.dll (this message is harmless)
+Platform assembly: /Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll (this message is harmless)
+Mono: successfully reloaded assembly
+- Completed reload, in  0.278 seconds
+ done. [Time: 3189.222412 ms] 
+Updating Assets/readme.txt - GUID: 3dfadf2b0b60c4475ba9837450a705b4...
+ done. [Time: 7.396429 ms] 
+Updating Assets/Plugins/Android/AndroidManifest.xml - GUID: d547e438eaf654101889b09d85b96ac6...
+ done. [Time: 4.451954 ms] 
+System memory in use before: 18.6 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 18.2 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 6.985912 ms (FindLiveObjects: 0.025721 ms CreateObjectMapping: 0.005084 ms MarkObjects: 0.680939 ms  DeleteObjects: 0.045003 ms)
+
+
+----- Total AssetImport time: 3.736601s, Asset Import: 3.718485s, CacheServerIntegrate: 0.000000s, CacheServer Download: 0.000000s [0 B, nan mb/s], CacheServer Hashing: 0.000000s [0 B, nan mb/s]
+
+System memory in use before: 19.2 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 19.1 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 246.
+Total: 0.933423 ms (FindLiveObjects: 0.016314 ms CreateObjectMapping: 0.004051 ms MarkObjects: 0.405739 ms  DeleteObjects: 0.017999 ms)
+
+*** Updating AndroidManifest ***
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Exporter:Export() (at Assets/Editor/GCM-Dev/Exporter.cs:17)
+ 
+(Filename: Assets/Editor/GCM-Dev/Exporter.cs Line: 17)
+
+*** Updating MainScene.cs ***
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Exporter:Export() (at Assets/Editor/GCM-Dev/Exporter.cs:20)
+ 
+(Filename: Assets/Editor/GCM-Dev/Exporter.cs Line: 20)
+
+*** Exporting package ***
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Exporter:Export() (at Assets/Editor/GCM-Dev/Exporter.cs:23)
+ 
+(Filename: Assets/Editor/GCM-Dev/Exporter.cs Line: 23)
+
+Refresh, detecting if any assets need to be imported or removed ... 0.012159 seconds
+Updating Assets/GCM-Sample/MainScene.cs - GUID: 4ad2af4125dda4292a875bbda3a33d3a...
+- starting compile Library/ScriptAssemblies/Assembly-CSharp.dll, for buildtarget 4
+ done. [Time: 134.437881 ms] 
+Updating Assets/Plugins/Android/AndroidManifest.xml - GUID: d547e438eaf654101889b09d85b96ac6...
+ done. [Time: 3.920131 ms] 
+
+----- Total AssetImport time: 0.166858s, Asset Import: 0.154744s, CacheServerIntegrate: 0.000000s, CacheServer Download: 0.000000s [0 B, nan mb/s], CacheServer Hashing: 0.000000s [0 B, nan mb/s]
+
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 5.873225 ms] 
+
+----- Total AssetImport time: 0.037656s, Asset Import: 0.020845s, CacheServerIntegrate: 0.000000s, CacheServer Download: 0.000000s [0 B, nan mb/s], CacheServer Hashing: 0.000000s [0 B, nan mb/s]
+
+Refresh, detecting if any assets need to be imported or removed ... 0.000570 seconds (Nothing changed)
+Refresh, detecting if any assets need to be imported or removed ... 0.000754 seconds (Nothing changed)
+
+----- Total AssetImport time: 0.165276s, Asset Import: 0.000004s, CacheServerIntegrate: 0.000000s, CacheServer Download: 0.000000s [0 B, nan mb/s], CacheServer Hashing: 0.000000s [0 B, nan mb/s]
+
+Cancelling DisplayDialog: Android-GCM-Plugin Exported!
+***Thread 'UnityLookForNewInputDevices' was not cleaned up!***
+UnityEditor.EditorApplication:Exit(Int32)
+Exporter:Export() (at Assets/Editor/GCM-Dev/Exporter.cs:34)
+
+[/Applications/buildAgent/work/7535de4ca26c26ac/Runtime/Threads/Thread.cpp line 474] 
+(Filename: Assets/Editor/GCM-Dev/Exporter.cs Line: 34)
+
