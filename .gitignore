@@ -128,5 +128,5 @@ build/Packager/Assets/readme.txt
 *.sln
 
 *.apk
-UnityGcmPlugin/bin
-UnityGcmPlugin/gen
+source/UnityGcmPlugin/bin
+source/UnityGcmPlugin/gen
