@@ -20,6 +20,10 @@ and import build/unity-gcm.unitypackage into your project.
 
 * https://github.com/kskkbys/unity-gcm/wiki/Developer-Guide
 
+## For contributors
+
+* https://github.com/kskkbys/unity-gcm/wiki/Contribute-this-project
+
 ## Known Issues
 
 * https://github.com/kskkbys/unity-gcm/issues
