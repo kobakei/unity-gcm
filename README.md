@@ -6,6 +6,9 @@ unity-gcm
 This is an Unity plugin to use Google Cloud Messaging (GCM) for Android.
 By using this plugin, you can implement GCM without writing Java code.
 
+* Receive GCM events in C#/UnityScript/Boo layer
+* Show notification view in Android status bar
+
 ## Installation
 
 Clone this repository
@@ -14,7 +17,7 @@ Clone this repository
 git clone git://github.com/kskkbys/unity-gcm
 ```
 
-and import build/unity-gcm.unitypackage into your project.
+and import `build/unity-gcm.unitypackage` into your project.
 
 ## Developer Guide
 
