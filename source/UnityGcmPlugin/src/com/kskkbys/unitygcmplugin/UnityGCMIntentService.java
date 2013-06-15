@@ -38,6 +38,7 @@ public class UnityGCMIntentService extends GCMBaseIntentService {
 	@Override
 	protected void onMessage(Context context, Intent intent) {
 		Log.v(TAG, "onMessage");
+		// Notify to C# layer
 		Bundle bundle = intent.getExtras();
 		Set<String> keys = bundle.keySet();
 		JSONObject json = new JSONObject();
@@ -49,6 +50,15 @@ public class UnityGCMIntentService extends GCMBaseIntentService {
 			Util.sendMessage(ON_MESSAGE, json.toString());
 		} catch (JSONException e) {
 			e.printStackTrace();
+		}
+		// Show native notification view in status bar if defined fields are put.
+		try {
+			String ticker = json.getString("ticker");
+			String contentText = json.getString("content_text");
+			String contentTitle = json.getString("content_title");
+			UnityGCMNotificationManager.showNotification(this, contentTitle, contentText, ticker);
+		} catch (JSONException e) {
+			// e.printStackTrace();
 		}
 	}
 
