@@ -13,6 +13,8 @@ By using this plugin, you can implement GCM without writing Java code.
 
 Download .unitypackage file from [here](https://github.com/kskkbys/unity-gcm/blob/master/build/unity-gcm.unitypackage?raw=true)
 
+And import the file into your Unity project.
+
 ## Developer Guide
 
 * https://github.com/kskkbys/unity-gcm/wiki/Developer-Guide
