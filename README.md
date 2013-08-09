@@ -11,13 +11,7 @@ By using this plugin, you can implement GCM without writing Java code.
 
 ## Installation
 
-Clone this repository
-
-```sh
-git clone git://github.com/kskkbys/unity-gcm
-```
-
-and import `build/unity-gcm.unitypackage` into your project.
+Download .unitypackage file from [here](https://github.com/kskkbys/unity-gcm/blob/master/build/unity-gcm.unitypackage?raw=true)
 
 ## Developer Guide
 
