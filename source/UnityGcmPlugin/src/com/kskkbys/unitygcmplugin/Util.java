@@ -6,23 +6,28 @@ import android.widget.Toast;
 import com.unity3d.player.UnityPlayer;
 
 public class Util {
-	
+
 	// GameObject name of the receiver object
 	private static final String RECEIVER_NAME = "GCMReceiver";
-	
+
 	/**
 	 * Send message to GameObject of Unity
 	 * @param method
 	 * @param message
 	 */
 	public static void sendMessage(final String method, final String message) {
-		if (TextUtils.isEmpty(message)) {
-			UnityPlayer.UnitySendMessage(RECEIVER_NAME, method, "");
-		} else {
-			UnityPlayer.UnitySendMessage(RECEIVER_NAME, method, message);
+		try {
+			if (TextUtils.isEmpty(message)) {
+				UnityPlayer.UnitySendMessage(RECEIVER_NAME, method, "");
+			} else {
+				UnityPlayer.UnitySendMessage(RECEIVER_NAME, method, message);
+			}
+		} catch (UnsatisfiedLinkError e) {
+			// When app process is launched by GCM, linking with native code may not be done.
+			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * Show toast message (for debugging)
 	 * @param message
