@@ -52,13 +52,25 @@ public class UnityGCMIntentService extends GCMBaseIntentService {
 			e.printStackTrace();
 		}
 		// Show native notification view in status bar if defined fields are put.
+		String contentTitle;
 		try {
-			String ticker = json.getString("ticker");
-			String contentText = json.getString("content_text");
-			String contentTitle = json.getString("content_title");
+			contentTitle = json.getString("content_title");
+			String contentText;
+			try {
+				contentText = json.getString("content_text");
+			} catch (JSONException e) {
+				contentText = "";
+			}
+			String ticker;
+			try {
+				ticker = json.getString("ticker");
+			} catch (JSONException e) {
+				ticker = contentTitle; // If no ticker specified, use title
+			}
 			UnityGCMNotificationManager.showNotification(this, contentTitle, contentText, ticker);
 		} catch (JSONException e) {
-			// e.printStackTrace();
+			// Title is mandatory, do not display in status bar
+			Log.v(TAG, "No content_title specified, not showing anything in Android status bar");
 		}
 	}
 
