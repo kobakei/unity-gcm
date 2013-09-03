@@ -149,6 +149,17 @@ public class GCM {
 		}
 	}
 	
+    /// <summary>
+ 	/// Clear all status bar notifications
+	/// </summary>
+ public static void ClearAllNotifications () {
+     if (Application.platform == RuntimePlatform.Android) {
+         using (AndroidJavaClass cls = new AndroidJavaClass ("com.kskkbys.unitygcmplugin.UnityGCMNotificationManager")) {
+             cls.CallStatic ("clearAllNotifications");
+         }
+     }
+ }
+ 
 	/// <summary>
 	/// Sets the error callback.
 	/// </summary>
