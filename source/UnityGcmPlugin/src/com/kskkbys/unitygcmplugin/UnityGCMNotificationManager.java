@@ -59,4 +59,18 @@ public class UnityGCMNotificationManager {
 		nm.notify(ID_NOTIFICATION, builder.build());
 	}
 	
+	/**
+	 * Show notification view in status bar
+	 * @param context
+	 * @param contentTitle
+	 * @param contentText
+	 * @param ticker
+	 */
+	public static void clearAllNotifications() {
+		Log.v(TAG, "clearAllNotifications");
+		
+		NotificationManager nm = (NotificationManager)UnityPlayer.currentActivity.getSystemService(Context.NOTIFICATION_SERVICE);
+		nm.cancelAll();
+	}
+	
 }
