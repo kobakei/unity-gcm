@@ -75,5 +75,10 @@ public class UnityGCMRegister {
 		GCMRegistrar.checkManifest(activity);
 		return GCMRegistrar.getRegisterOnServerLifespan(activity);
 	}
+	
+	public static void setNotificationsEnabled(boolean enabled) {
+		Log.v(TAG, "setNotificationsEnabled: " + enabled);
+		Util.notificationsEnabled = enabled;
+	}
 
 }

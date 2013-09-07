@@ -51,6 +51,11 @@ public class UnityGCMIntentService extends GCMBaseIntentService {
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
+		
+		if (!Util.notificationsEnabled) {
+			return;
+		}
+		
 		// Show native notification view in status bar if defined fields are put.
 		String contentTitle;
 		try {
