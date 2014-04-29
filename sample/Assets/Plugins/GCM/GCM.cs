@@ -216,4 +216,12 @@ public class GCM {
 	public static void SetDeleteMessagesCallback (System.Action<int> onDeleteMessages) {
 		GCMReceiver._onDeleteMessages = onDeleteMessages;
 	}
+	
+	public static void SetNotificationsEnabled (bool enabled) {
+		if (Application.platform == RuntimePlatform.Android) {
+			using (AndroidJavaClass cls = new AndroidJavaClass (CLASS_NAME)) {
+				cls.CallStatic("setNotificationsEnabled", enabled);
+			}
+		}
+	}
 }
