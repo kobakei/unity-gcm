@@ -1,3 +1,6 @@
+# THIS PROJECT IS NOT MAINTAINTED NOW.
+
+
 unity-gcm
 ============================
 
