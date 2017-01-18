@@ -18,7 +18,7 @@ public class GCM {
 		if (Application.platform == RuntimePlatform.Android) {
 			if (_receiver == null) {
 				_receiver = new GameObject ("GCMReceiver");
-				_receiver.AddComponent ("GCMReceiver");
+				_receiver.AddComponent<GCMReceiver>();
 			}
 		}
 	}
