@@ -9,6 +9,8 @@ public class Util {
 
 	// GameObject name of the receiver object
 	private static final String RECEIVER_NAME = "GCMReceiver";
+	
+	public static boolean notificationsEnabled = true; 
 
 	/**
 	 * Send message to GameObject of Unity
